@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.screen1{
+    background-image: url(IMAGENES/fondo1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 845px;
+}
+
+.navbar{ /*Abuelo*/
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(37, 37, 50, 0.119);
+    
+}
+
+.navbarMenu{ /*Padre*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 600px;
+    height: 90px;
+}
+
+.navbarItem{
+    list-style: none;
+}
+
+.navbarIcons{ /*Padre*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    height: 90px;
+    float: right;
+}
+
+.navbarIconsItem img{
+    height: 25px;
+}
+
+.navbarIconsItem{
+    list-style: none;
+}
+
+.navbarBox{ /*Abuelo*/
+    display: flex;
+    height: 650px;
+    align-items: flex-end;
+}
+
+.boxDown{ /*Padre*/
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 800px;
+}
+
+.boxDown button{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(12, 12, 186);
+    font-size: medium;
+}
+
+/*PANTALLA 2*/
+.screen2{
+    height: 845px;
+}
+
+.navbar2{
+    height: 170px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbarMenu2{ /*Padre*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 600px;
+    height: 90px;
+}
+
+.navbarItem2{
+    list-style: none;
+}
+
+.page2images{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.images{
+    width: 1200px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.x1{
+    background-image: url("IMAGENES/BMW-X1.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    width: 300px;
+    height: 150px;
+}
+
+.x2{
+    background-image: url("IMAGENES/BMW-X2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 230px;
+    width: 300px;
+    height: 150px;
+}
+
+.x3{
+    background-image: url("IMAGENES/BMW-X3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    width: 300px;
+    height: 150px;
+}
+
+.text{
+    width: 1200px;
+    height: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.price{
+    width: 1200px;
+    height: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.itemConf{
+    width: 1200px;
+    height: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.textX1, .textX2, .textX3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 25px;
+}
+
+.priceX1, .priceX2, .priceX3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 25px;
+}
+
+.confX1, .confX2, .confX3{
+    display: flex;
+    justify-content: flex-start;
+    width: 200px;
+    height: 25px;
+}
+
+.images2{
+    width: 1200px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.x4{
+    background-image: url("IMAGENES/BMW-X4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    width: 300px;
+    height: 150px;
+}
+
+.x5{
+    background-image: url("IMAGENES/BMW-X5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    width: 300px;
+    height: 150px;
+}
+
+.x6{
+    background-image: url("IMAGENES/BMW-X6.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    width: 300px;
+    height: 150px;
+}
+
+.textX4, .textX5, .textX6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 25px;
+}
+
+.priceX4, .priceX5, .priceX6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 25px;
+}
+
+.confX4, .confX5, .confX6{
+    display: flex;
+    justify-content: flex-start;
+    width: 200px;
+    height: 25px;
+}
+
+/*PANTALLA 3*/
+
+.news{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news1, .news2, .news3, .news4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.imageNews1{
+    background-image: url("IMAGENES/noticia1.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    width: 300px;
+    height: 150px;
+}
+
+.imageNews2{
+    background-image: url("IMAGENES/noticia2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    width: 300px;
+    height: 150px;
+}
+
+.imageNews3{
+    background-image: url("IMAGENES/noticia3.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    width: 300px;
+    height: 150px;
+}
+
+.imageNews4{
+    background-image: url("IMAGENES/noticia4.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    width: 300px;
+    height: 150px;
+}
+
+.news1, .news2, .news3, .news4{
+    width: 1200px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
